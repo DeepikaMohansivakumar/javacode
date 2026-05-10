@@ -1,6 +1,5 @@
 import java.util.*;
 class User {
-
     private String userName;
     private int userPin;
     User(String userName, int userPin) {
@@ -69,7 +68,6 @@ public class Bankop18 {
         String enteredUserName = sc.nextLine();
         System.out.print("Enter your pin: ");
         int enteredpin = sc.nextInt();
-
         if (user1.validateUser(enteredUserName)
                 && user1.validatePin(enteredpin)) {
 
@@ -134,11 +132,10 @@ public class Bankop18 {
 
             } while (choice != 5);
 
-        } else {
-
+        } 
+        else {
             System.out.println("Invalid username or password");
         }
-
         sc.close();
     }
 }
