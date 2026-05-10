@@ -1,0 +1,2 @@
+//An parent class can be accessed by child class
+extends keyword is used to access the parent class to child class

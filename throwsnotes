@@ -1,0 +1,6 @@
+to return a value we use return
+to return exception we use throws keyword
+why exception needed???
+//application ll face scratch
+//exception have to be handled
+//proper explanation have to be given for users

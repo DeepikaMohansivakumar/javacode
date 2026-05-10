@@ -1,0 +1,10 @@
+Exception handling
+//Errors
+1.Compile time error comes while converting to byte code
+2.Logical error - code runs well but  therell be some logics wrong
+3.Runtime error - occurs when running the program after compilation like arithmetic or array index out of bound
+like that errors
+//EXCEPTION HANDLING
+we'll use try catch block where we'll give code with errors in try{} block and we can skip errorrs while runtime
+by using catch(Exception e){} inside this catch block we'll bring any statements then that will be shown as the
+output we won't get anyy errors during the runtime

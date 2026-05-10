@@ -1,0 +1,13 @@
+//if we cant access thee private method then we cant access that in main class
+so we can create a public method using getter or setter method and then we
+can call that in main class using get method eg:getBalance()
+//if we want to update something in the private class then we use setter() method for example we have balance
+variable in the class i need to update that amt in main class then i can update that using set function
+eg i have balance = 1000.0 in class
+i need to update that to 2000.0 in main class then
+public void setBalance(boolean balance){
+this.balance=balance;
+}
+(this) keyword is used to call the instance of the class then the balanc eis updated to the class variable
+balance
+//CHECK THE ENCAPSULATION CODE
