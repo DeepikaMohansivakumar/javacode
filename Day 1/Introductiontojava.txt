@@ -1,0 +1,135 @@
+Before java thats name is OAK --> GREEN --> JAVA COFFEE -->JAVA (NAME JAVA IS AN ISLAND)
+JAVA (James Gosling - 1998)
+
+INTRODUCTION (Features)
+- Before Java → OAK → Green → Java (named after coffee)
+- Next version of Java is Robust
+  → Garbage collection is available
+  → Example: If we create a variable but don’t use it, it will be cleaned
+
+- Object Oriented
+- Platform Independent
+- Simple
+
+INSTALLATION
+- Install Java JDK from IntelliJ or official sources
+
+LTS (Long Term Support Version)
+- Useful for long-term purposes
+
+JAVA ARCHITECTURE
+Java → Class → JVM → Output
+
+JDK → For development
+JRE → For running programs
+JVM → Converts bytecode to machine code
+
+PURPOSE OF JIT (Just-In-Time Compiler)
+- Converts bytecode to machine code at runtime (faster execution)
+
+--------------------------------------------------
+
+STRING
+- Strings are immutable
+- Collection of characters enclosed within " "
+
+--------------------------------------------------
+
+MEMORY MANAGEMENT
+
+Two Types of Memory:
+
+1. Stack Memory
+   - Stores addresses
+   - Fixed size
+   - Stores method calls
+
+2. Heap Memory (String Constant Pool)
+   - Stores objects
+   - Dynamic size
+   - Stores actual values
+
+Example:
+String college = "Paavai"
+
+- "Paavai" → stored in Heap
+- college → reference stored in Stack
+
+--------------------------------------------------
+
+BASIC JAVA PROGRAM
+
+class Main {
+    public static void main(String[] args) {
+        System.out.print("Hello Paavai");
+    }
+}
+
+--------------------------------------------------
+
+USER INPUT (Scanner)
+
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        System.out.print(a);
+    }
+}
+
+--------------------------------------------------
+
+DATA TYPES
+
+1. Primitive Data Types
+   - int
+   - float
+   - double
+   - long
+   - byte
+
+2. Non-Primitive Data Types
+   - String
+   - Arrays
+   - Classes
+
+--------------------------------------------------
+
+APPLICATIONS OF JAVA
+- Android Apps
+- Desktop Applications
+- Cloud Services
+- Web Applications
+- Banking Applications
+
+--------------------------------------------------
+
+BYTECODE
+- Intermediate code generated after compilation
+
+WHY NO POINTERS IN JAVA?
+- Improves security
+- Reduces complexity
+
+--------------------------------------------------
+
+AUTOMATIC MEMORY MANAGEMENT
+- Done using Garbage Collection
+
+--------------------------------------------------
+
+MULTITHREADING
+- Multiple processes run simultaneously
+
+--------------------------------------------------
+
+BYTECODE VERIFIER
+- Checks code safety before execution
+
+--------------------------------------------------
+
+FILE EXTENSIONS
+- .java → Source code
+- .class → Bytecode
